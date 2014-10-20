@@ -30,9 +30,12 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER STYLES
 *********************/
-
-.header {}
-
+.header {
+	text-align: left;
+	nav {
+		float: right;
+	}
+}
 	#logo {}
 
 /*********************
@@ -40,13 +43,14 @@ NAVIGATION STYLES
 *********************/
 
 .nav {
+	display: initial;
 	border: 0;
 	ul {
 		background:$black;
 		margin-top:0;
 	}
 	li {
-		float: left;
+		float: right;
 		position: relative;
 
 		a {

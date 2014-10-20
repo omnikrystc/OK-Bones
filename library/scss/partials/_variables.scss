@@ -23,7 +23,6 @@ $alert-green:       #e6efc2;
 $alert-blue:        #d5edf8;
 
 $black:             #323944;
-$white:             #fff;
 
 $light-gray:        #f8f9fa;
 $gray:              #eaedf2;
@@ -43,6 +42,17 @@ $link-hover:        darken($link-color, 9%);
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
 
+
+/*
+ * Overlapping variables
+ */
+
+$white: #fff;
+
+/*
+ * New variables
+ */
+
 $prime-dark: #011640;
 $prime-medium: #2D5873;
 $prime-lite: #7BA696;
@@ -51,8 +61,11 @@ $second-dark: #BF9663;
 
 $border-color: $prime-dark;
 $text-color: $prime-dark;
-$site-background: $prime-medium;
+$site-background: $second-lite;
 $site-foreground: $prime-lite;
+
+$header-background: $second-dark;
+$header-text: $prime-dark;
 
 /*
 Here's a great tutorial on how to
