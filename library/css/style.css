@@ -1623,8 +1623,8 @@ HEADER STYLES
 }
 
 /* line 158, ../scss/breakpoints/_base.scss */
-nav {
-  display: inline;
+nav li {
+  display: inline-block;
 }
 
 /* line 161, ../scss/breakpoints/_base.scss */
@@ -1672,9 +1672,9 @@ and more scalable.
 /* line 190, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
-  color: #fff;
+  color: #011640;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 0.50em;
   /*
   remember this is for mobile ONLY, so there's no need
   to even declare hover styles here, you can do it in
@@ -1694,7 +1694,7 @@ POSTS & CONTENT STYLES
 *********************/
 /* line 259, ../scss/breakpoints/_base.scss */
 #content {
-  margin-top: 1.5em;
+  margin-top: .5em;
 }
 
 /* line 263, ../scss/breakpoints/_base.scss */
@@ -2399,7 +2399,7 @@ you can add resource intensive styles.
   *********************/
   /* line 148, ../scss/breakpoints/_768up.scss */
   .sidebar {
-    margin-top: 2.2em;
+    margin-top: 0;
   }
 
   /* line 152, ../scss/breakpoints/_768up.scss */
@@ -2411,14 +2411,13 @@ you can add resource intensive styles.
   /* line 157, ../scss/breakpoints/_768up.scss */
   .widget {
     padding: 0 10px;
-    margin: 2.2em 0;
   }
-  /* line 162, ../scss/breakpoints/_768up.scss */
+  /* line 161, ../scss/breakpoints/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 170, ../scss/breakpoints/_768up.scss */
+  /* line 169, ../scss/breakpoints/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2443,7 +2442,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 278, ../scss/breakpoints/_768up.scss */
+  /* line 277, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

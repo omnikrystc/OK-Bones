@@ -155,8 +155,8 @@ HEADER STYLES
 	margin: .1em;
 	text-align: center;
 }
-	nav {
-		display: inline;
+	nav li {
+		display: inline-block;
 	}
 	#logo {
 		border: 2px solid;
@@ -189,7 +189,7 @@ and more scalable.
 
 		a {
 			display: block;
-			color: $white;
+			color: $header-text;
 			text-decoration: none;
 			padding: 0.50em;
 
@@ -257,7 +257,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 1.5em;
+	margin-top: .5em;
 }
 
 		.hentry {
