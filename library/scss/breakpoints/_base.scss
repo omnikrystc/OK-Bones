@@ -65,6 +65,22 @@ style a page via class
 .paged {}                         /* paged items like search results or archives */
 	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
 
+
+/*********************
+SOME CLASSES FOR TESTING
+*********************/
+.sample1 {
+	border: 2px solid $border-color;
+	background-color: $prime-medium;
+	color: $prime-lite;
+}
+
+.sample2 {
+	border: 2px solid $border-color;
+	background-color: $second-dark;
+	color: $second-lite;
+}
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
