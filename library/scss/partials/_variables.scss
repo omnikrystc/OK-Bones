@@ -64,8 +64,11 @@ $text-color: $prime-dark;
 $site-background: $second-lite;
 $site-foreground: $prime-lite;
 
-$header-background: $second-dark;
-$header-text: $prime-dark;
+$header-background: $site-background;
+$header-text: $text-color;
+
+$footer-background: $site-background;
+$footer-text: $text-color;
 
 /*
 Here's a great tutorial on how to
