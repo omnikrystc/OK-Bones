@@ -1487,7 +1487,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #011640;
-  background-color: #BFBA9F;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1543,7 +1543,7 @@ SOME CLASSES FOR TESTING
 /* line 78, ../scss/breakpoints/_base.scss */
 .sample2 {
   border: 2px solid #011640;
-  background-color: #BF9663;
+  background-color: #BFBA9F;
   color: #BFBA9F;
 }
 
@@ -1636,7 +1636,7 @@ HEADER STYLES
 /* line 170, ../scss/breakpoints/_base.scss */
 .header {
   margin: .1em;
-  background-color: #BFBA9F;
+  background-color: #fff;
   color: #011640;
   text-align: center;
 }
@@ -2175,7 +2175,7 @@ FOOTER STYLES
 /* line 886, ../scss/breakpoints/_base.scss */
 .footer {
   clear: both;
-  background-color: #BFBA9F;
+  background-color: #fff;
   color: #011640;
 }
 

@@ -61,12 +61,15 @@ $second-dark: #BF9663;
 
 $border-color: $prime-dark;
 $text-color: $prime-dark;
-$site-background: $second-lite;
+
+$site-background: $white;
 $site-foreground: $prime-lite;
 
 $header-background: $site-background;
 $header-text: $text-color;
 
+$content-background: $second-lite;
+$content-border: $second-medium;
 $footer-background: $site-background;
 $footer-text: $text-color;
 
