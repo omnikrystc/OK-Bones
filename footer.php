@@ -28,12 +28,6 @@
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
-<div class="sample1">
-	Sample
-</div>
-<div class="sample2">
-	Sample
-</div>
 	</body>
 
 </html> <!-- end of site. what a ride! -->

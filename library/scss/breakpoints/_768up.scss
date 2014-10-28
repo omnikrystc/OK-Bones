@@ -32,6 +32,9 @@ HEADER STYLES
 *********************/
 .header {
 	text-align: left;
+	#tagline {
+		text-align: center;
+	}
 	nav {
 		float: right;
 	}
@@ -142,11 +145,20 @@ NAVIGATION STYLES
 } /* end .nav */
 
 /*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {}
+		#main {
+			border-radius: 0 0 .4em .4em;
+		}
+
+/*********************
 SIDEBARS & ASIDES
 *********************/
 
 .sidebar {
-	margin-top: 0;
+	border-bottom-left-radius: 0;
 }
 
 	.widgettitle {

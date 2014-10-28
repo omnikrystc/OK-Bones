@@ -65,22 +65,6 @@ style a page via class
 .paged {}                         /* paged items like search results or archives */
 	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
 
-
-/*********************
-SOME CLASSES FOR TESTING
-*********************/
-.sample1 {
-	border: 2px solid $border-color;
-	background-color: $prime-medium;
-	color: $prime-lite;
-}
-
-.sample2 {
-	border: 2px solid $border-color;
-	background-color: $second-lite;
-	color: $second-lite;
-}
-
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -167,12 +151,25 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
+#inner-header {
+	background-color: $inner-background;
+	padding: .4em;
+	border-radius: .4em .4em 0 0;
+}
+
 .header {
-	margin: .1em;
-	background-color: $header-background;
+	margin-top: .5em;
+	background-color: $outer-background;
 	color: $header-text;
 	text-align: center;
 }
+	#tagline {
+		font-size: smaller;
+		font-style: italic;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+	}
 	nav li {
 		display: inline-block;
 	}
@@ -275,14 +272,15 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: .5em;
+	background-color: $outer-background;
+	margin: 0;
 }
-
+		#main {
+			background-color: $inner-background;
+		}
 		.hentry {
 			background-color: $white;
-			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
 
 			header {
 				border-bottom: 1px solid $light-gray;
@@ -845,7 +843,12 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+.sidebar {
+	background-color: $inner-background;
+	margin-top: 0;
+	padding: .2em;
+	border-radius: 0 0 .4em .4em;
+}
 
 	.widgettitle {}
 

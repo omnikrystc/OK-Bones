@@ -1195,17 +1195,17 @@ select,
 textarea,
 .field {
   display: block;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 12px;
-  margin-bottom: 14px;
+  height: 2em;
+  line-height: 1.2em;
+  padding: .2em .5em;
+  margin: 0 .2em .5em 0;
   font-size: 1em;
-  color: #011640;
-  border-radius: 3px;
+  color: #335588;
+  border-radius: .2em;
   vertical-align: middle;
   box-shadow: none;
   border: 0;
-  width: 100%;
+  width: 98%;
   max-width: 400px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #eaedf2;
@@ -1486,8 +1486,8 @@ body {
   font-family: "Cantarell", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #011640;
-  background-color: #fff;
+  color: #335588;
+  background-color: #cccccc;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1531,26 +1531,9 @@ style a page via class
 /* paged items like search results or archives */
 /* individual paged (i.e. body.paged-3) */
 /*********************
-SOME CLASSES FOR TESTING
-*********************/
-/* line 72, ../scss/breakpoints/_base.scss */
-.sample1 {
-  border: 2px solid #011640;
-  background-color: #2D5873;
-  color: #7BA696;
-}
-
-/* line 78, ../scss/breakpoints/_base.scss */
-.sample2 {
-  border: 2px solid #011640;
-  background-color: #BFBA9F;
-  color: #BFBA9F;
-}
-
-/*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 88, ../scss/breakpoints/_base.scss */
+/* line 72, ../scss/breakpoints/_base.scss */
 .wrap {
   width: 96%;
   margin: 0 auto;
@@ -1559,18 +1542,18 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-/* line 97, ../scss/breakpoints/_base.scss */
+/* line 81, ../scss/breakpoints/_base.scss */
 a, a:visited {
   color: #f01d4f;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 101, ../scss/breakpoints/_base.scss */
+/* line 85, ../scss/breakpoints/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
   color: #d10e3c;
 }
-/* line 111, ../scss/breakpoints/_base.scss */
+/* line 95, ../scss/breakpoints/_base.scss */
 a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1583,7 +1566,7 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 125, ../scss/breakpoints/_base.scss */
+/* line 109, ../scss/breakpoints/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
@@ -1593,36 +1576,36 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 134, ../scss/breakpoints/_base.scss */
+/* line 118, ../scss/breakpoints/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 139, ../scss/breakpoints/_base.scss */
+/* line 123, ../scss/breakpoints/_base.scss */
 h1, .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
 }
 
-/* line 144, ../scss/breakpoints/_base.scss */
+/* line 128, ../scss/breakpoints/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
 
-/* line 150, ../scss/breakpoints/_base.scss */
+/* line 134, ../scss/breakpoints/_base.scss */
 h3, .h3 {
   font-size: 1.125em;
 }
 
-/* line 154, ../scss/breakpoints/_base.scss */
+/* line 138, ../scss/breakpoints/_base.scss */
 h4, .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
 
-/* line 159, ../scss/breakpoints/_base.scss */
+/* line 143, ../scss/breakpoints/_base.scss */
 h5, .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
@@ -1633,29 +1616,45 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-/* line 170, ../scss/breakpoints/_base.scss */
-.header {
-  margin: .1em;
+/* line 154, ../scss/breakpoints/_base.scss */
+#inner-header {
   background-color: #fff;
-  color: #011640;
+  padding: .4em;
+  border-radius: .4em .4em 0 0;
+}
+
+/* line 160, ../scss/breakpoints/_base.scss */
+.header {
+  margin-top: .5em;
+  background-color: #cccccc;
+  color: #335588;
   text-align: center;
 }
 
-/* line 176, ../scss/breakpoints/_base.scss */
+/* line 166, ../scss/breakpoints/_base.scss */
+#tagline {
+  font-size: smaller;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 173, ../scss/breakpoints/_base.scss */
 nav li {
   display: inline-block;
 }
 
-/* line 179, ../scss/breakpoints/_base.scss */
+/* line 176, ../scss/breakpoints/_base.scss */
 #logo {
   border: 2px solid;
   border-radius: 1em;
   display: inline;
   padding-right: .25em;
 }
-/* line 184, ../scss/breakpoints/_base.scss */
+/* line 181, ../scss/breakpoints/_base.scss */
 #logo a {
-  color: #011640;
+  color: #335588;
   font-weight: bold;
   font-style: italic;
 }
@@ -1670,7 +1669,7 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-/* line 203, ../scss/breakpoints/_base.scss */
+/* line 200, ../scss/breakpoints/_base.scss */
 .nav {
   border-bottom: 0;
   margin: 0;
@@ -1678,7 +1677,7 @@ and more scalable.
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 206, ../scss/breakpoints/_base.scss */
+/* line 203, ../scss/breakpoints/_base.scss */
 .nav li {
   /*
   so you really have to rethink your dropdowns for mobile.
@@ -1688,10 +1687,10 @@ and more scalable.
   http://www.alistapart.com/articles/organizing-mobile/
   */
 }
-/* line 208, ../scss/breakpoints/_base.scss */
+/* line 205, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
-  color: #011640;
+  color: #335588;
   text-decoration: none;
   padding: 0.50em;
   /*
@@ -1701,7 +1700,7 @@ and more scalable.
   keep this file as small as possible!
   */
 }
-/* line 241, ../scss/breakpoints/_base.scss */
+/* line 238, ../scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
@@ -1711,17 +1710,21 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 277, ../scss/breakpoints/_base.scss */
+/* line 274, ../scss/breakpoints/_base.scss */
 #content {
-  margin-top: .5em;
+  background-color: #cccccc;
+  margin: 0;
+}
+
+/* line 278, ../scss/breakpoints/_base.scss */
+#main {
+  background-color: #fff;
 }
 
 /* line 281, ../scss/breakpoints/_base.scss */
 .hentry {
   background-color: #fff;
-  border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #011640;
 }
 /* line 287, ../scss/breakpoints/_base.scss */
 .hentry header {
@@ -1941,12 +1944,12 @@ PAGE NAVI STYLES
 /* line 561, ../scss/breakpoints/_base.scss */
 .pagination .current {
   cursor: default;
-  color: #011640;
+  color: #335588;
 }
 /* line 565, ../scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
   background-color: #fff;
-  color: #011640;
+  color: #335588;
 }
 
 /* end .bones_page_navi */
@@ -2109,7 +2112,7 @@ COMMENT FORM STYLES
 }
 /* line 799, ../scss/breakpoints/_base.scss */
 .logged-in-as a {
-  color: #011640;
+  color: #335588;
 }
 
 /* line 804, ../scss/breakpoints/_base.scss */
@@ -2154,17 +2157,25 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 856, ../scss/breakpoints/_base.scss */
+/* line 848, ../scss/breakpoints/_base.scss */
+.sidebar {
+  background-color: #fff;
+  margin-top: 0;
+  padding: .2em;
+  border-radius: 0 0 .4em .4em;
+}
+
+/* line 861, ../scss/breakpoints/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 873, ../scss/breakpoints/_base.scss */
+/* line 878, ../scss/breakpoints/_base.scss */
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
   text-align: center;
-  border: 1px solid #011640;
+  border: 1px solid #ccccdd;
   border-radius: 2px;
   margin-bottom: 1.5em;
 }
@@ -2172,11 +2183,11 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 886, ../scss/breakpoints/_base.scss */
+/* line 891, ../scss/breakpoints/_base.scss */
 .footer {
   clear: both;
-  background-color: #fff;
-  color: #011640;
+  background-color: #cccccc;
+  color: #335588;
 }
 
 /*
@@ -2324,6 +2335,10 @@ you can add resource intensive styles.
     text-align: left;
   }
   /* line 35, ../scss/breakpoints/_768up.scss */
+  .header #tagline {
+    text-align: center;
+  }
+  /* line 38, ../scss/breakpoints/_768up.scss */
   .header nav {
     float: right;
   }
@@ -2331,7 +2346,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 45, ../scss/breakpoints/_768up.scss */
+  /* line 48, ../scss/breakpoints/_768up.scss */
   .nav {
     display: initial;
     border: 0;
@@ -2339,12 +2354,12 @@ you can add resource intensive styles.
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 48, ../scss/breakpoints/_768up.scss */
+  /* line 51, ../scss/breakpoints/_768up.scss */
   .nav ul {
     background: #323944;
     margin-top: 0;
   }
-  /* line 52, ../scss/breakpoints/_768up.scss */
+  /* line 55, ../scss/breakpoints/_768up.scss */
   .nav li {
     float: right;
     position: relative;
@@ -2353,7 +2368,7 @@ you can add resource intensive styles.
     */
     /* showing sub-menus */
   }
-  /* line 56, ../scss/breakpoints/_768up.scss */
+  /* line 59, ../scss/breakpoints/_768up.scss */
   .nav li a {
     border-bottom: 0;
     /*
@@ -2361,12 +2376,12 @@ you can add resource intensive styles.
     has the possibility of being a mobile device.
     */
   }
-  /* line 63, ../scss/breakpoints/_768up.scss */
+  /* line 66, ../scss/breakpoints/_768up.scss */
   .nav li a:hover, .nav li a:focus {
     color: #fff;
     text-decoration: underline;
   }
-  /* line 75, ../scss/breakpoints/_768up.scss */
+  /* line 78, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu,
   .nav li ul.children {
     margin-top: 0;
@@ -2377,7 +2392,7 @@ you can add resource intensive styles.
     z-index: 8999;
     /* highlight sub-menu current page */
   }
-  /* line 84, ../scss/breakpoints/_768up.scss */
+  /* line 87, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li,
   .nav li ul.children li {
     /*
@@ -2386,7 +2401,7 @@ you can add resource intensive styles.
     for usability. k, bai.
     */
   }
-  /* line 86, ../scss/breakpoints/_768up.scss */
+  /* line 89, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li a,
   .nav li ul.children li a {
     padding-left: 10px;
@@ -2395,18 +2410,18 @@ you can add resource intensive styles.
     width: 180px;
     border-bottom: 1px solid #ccc;
   }
-  /* line 103, ../scss/breakpoints/_768up.scss */
+  /* line 106, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li:last-child a,
   .nav li ul.children li:last-child a {
     border-bottom: 0;
   }
-  /* line 113, ../scss/breakpoints/_768up.scss */
+  /* line 116, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu li ul,
   .nav li ul.children li ul {
     top: 0;
     left: 100%;
   }
-  /* line 128, ../scss/breakpoints/_768up.scss */
+  /* line 131, ../scss/breakpoints/_768up.scss */
   .nav li:hover > ul {
     top: auto;
     visibility: visible;
@@ -2414,29 +2429,37 @@ you can add resource intensive styles.
 
   /* end .nav */
   /*********************
-  SIDEBARS & ASIDES
+  POSTS & CONTENT STYLES
   *********************/
-  /* line 148, ../scss/breakpoints/_768up.scss */
-  .sidebar {
-    margin-top: 0;
+  /* line 152, ../scss/breakpoints/_768up.scss */
+  #main {
+    border-radius: 0 0 .4em .4em;
   }
 
-  /* line 152, ../scss/breakpoints/_768up.scss */
+  /*********************
+  SIDEBARS & ASIDES
+  *********************/
+  /* line 160, ../scss/breakpoints/_768up.scss */
+  .sidebar {
+    border-bottom-left-radius: 0;
+  }
+
+  /* line 164, ../scss/breakpoints/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 157, ../scss/breakpoints/_768up.scss */
+  /* line 169, ../scss/breakpoints/_768up.scss */
   .widget {
     padding: 0 10px;
   }
-  /* line 161, ../scss/breakpoints/_768up.scss */
+  /* line 173, ../scss/breakpoints/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 169, ../scss/breakpoints/_768up.scss */
+  /* line 181, ../scss/breakpoints/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2461,7 +2484,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 277, ../scss/breakpoints/_768up.scss */
+  /* line 289, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

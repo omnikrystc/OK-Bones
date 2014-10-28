@@ -52,18 +52,26 @@ $white: #fff;
 /*
  * New variables
  */
+$header-text: #335588;
 
-$prime-dark: #011640;
-$prime-medium: #2D5873;
-$prime-lite: #7BA696;
-$second-lite: #BFBA9F;
-$second-dark: #BF9663;
 
-$border-color: $prime-dark;
+
+
+$prime-dark: #335588;
+$prime-medium: #5577aa;
+$prime-lite: #7788bb;
+$second-lite: #cccccc;
+$second-vibro: #ccccdd;
+$second-dark: #9999bb;
+
+$border-color: $second-vibro;
 $text-color: $prime-dark;
 
-$site-background: $white;
-$site-foreground: $prime-lite;
+$site-background: $second-lite;
+$inner-background: $white;
+$outer-background: $site-background;
+
+$site-foreground: $second-lite;
 
 $header-background: $site-background;
 $header-text: $text-color;
