@@ -154,7 +154,7 @@ HEADER STYLES
 #inner-header {
 	background-color: $inner-background;
 	padding: .4em;
-	border-radius: .4em .4em 0 0;
+	border-radius: $content-radius $content-radius 0 0;
 }
 
 .header {
@@ -175,7 +175,7 @@ HEADER STYLES
 	}
 	#logo {
 		border: 2px solid;
-		border-radius: 1em;
+		border-radius: $logo-radius;
 		display: inline;
 		padding-right: .25em;
 		a {
@@ -847,7 +847,7 @@ SIDEBARS & ASIDES
 	background-color: $inner-background;
 	margin-top: 0;
 	padding: .2em;
-	border-radius: 0 0 .4em .4em;
+	border-radius: 0 0 $content-radius $content-radius;
 }
 
 	.widgettitle {}
